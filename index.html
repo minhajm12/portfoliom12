@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhaj Portfolio Website</title>
+    <link href="/Assets/Img/Logo.png" type="image/png" rel="icon"> 
+    <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="/Assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css">
+    <script type="text/javascript" src="assets/JS/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+    <div id="preloader"></div>
+    <div id="header">
+        
+            <nav id="navbar">
+                <a href="">
+                    <img src="/Assets/Img/Logo2.png" class="logo">
+                </a>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">WORKS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="container">
+            <div class="header-text">
+                <h1>Hi, I am <span>MINHAJ</span><br></h1>
+                <p data-aos="fade-up" data-aos-duration="500">I'm a <span class="auto-type"></span></p>
+                 <div class="icons" data-aos="fade-up" data-aos-duration="750">
+                    <div class="icn">
+                        <a href="https://www.instagram.com/m12_designs/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="icn">
+                        <a href="https://www.behance.net/minhajatholi">
+                            <i class="fa-brands fa-behance"></i>
+                        </a>
+                    </div>
+                 </div>
+                 <div class="button" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="/Assets/Img/M12_Resume.pdf" download>
+                        <button type="button" class="btn2">Download CV</button>
+                    </a>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" data-aos="fade-up" data-aos-duration="500">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="images">
+                        <img src="/Assets/Img/IMG_0193-1.jpg">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hi, I am Minhaj from Atholi, Calicut. I am a Web Designer and a Freelance Graphics Designer who seeking a Great Opportunities in the Developing and Designing Industry.My intentions to make creative designing ideas and layouts with my abilities to become a good Developer and a Designer. </p>
+                    <div class="tab-titles">
+                        <p class="tab-item active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-item" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-item" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-item" onclick="opentab('soft-skills')">Soft-Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2016</span><br>SSLC - Thiruvangoor Higher Secoundary School</li>
+                            <li><span>2018</span><br>PLUS TWO - SGMGHSS Kolathur</li>
+                            <li><span>2021</span><br>Degree B.COM - MOCAS College Cheruvatta</li>
+                            <li><span>2022</span><br>Diploma In Multimedia Design - Specialised In Web Designing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Web Design</span><br>Website Designing & Development.</li>
+                            <li><span>UI/UX Design</span><br>Design Web Layout and User Interfaces.</li>
+                            <li><span>Graphics Design</span><br>Design Posters, Brochure, Logo's, Website, etc.</li>
+                            <li><span>Motion Graphics</span><br>Create Motion Graphics and Advertisments.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>From 2020 Onwards</span><br>Available For Freelance Works.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="soft-skills">
+                        <ul>
+                            <li><span>Development</span></li>
+                            <li class="per html">HTML</li>
+                            <li class="per css">CSS</li>
+                            <li class="per java">Java Script</li>
+                            <li class="per jq">JQuery</li>
+                            <li class="per boot">Bootstrap</li>
+                            <li class="per php">PHP & MySQL</li>
+                            <li class="per wp">Wordpress</li>
+                        </ul>
+                        <ul>
+                            <li><span>Design</span></li>
+                            <li class="per ps">Photopshop</li>
+                            <li class="per ai">Illustrator</li>
+                            <li class="per ae">After Effects</li>
+                            <li class="per cdr">Corel DRAW</li>
+                            <li class="per an">Animate</li>
+                            <li class="per pr">Premiere Pro</li>
+                        </ul>
+                        <ul>
+                            <li><span>UI/UX</span></li>
+                            <li class="per xd">Adobe XD</li>
+                            <li class="per figma">Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services" data-aos="fade-up" data-aos-duration="500">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Create a Personal Website or a Business Website for your Company.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Create Powerfull Design and layout for  Website and Application</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphics Design</h2>
+                    <p>Provides you the Best Creative Designs to grow your Business</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-person-running"></i>
+                    <h2>Motion Graphics</h2>
+                    <p>Advertisment, Animation, Product Ads, Logo Animation,Etc.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" data-aos="fade-up" data-aos-duration="500">
+        <div class="container">
+            <h1 class="subtitle">My Works</h1>
+            <div class="work-list">
+                <div class="work" data-item="website">
+                    <img src="assets/Portfolio/Web/Gaming Website Template.jpg">
+                    <div class="layer">
+                        <h3>Gaming Website</h3>
+                        <a href="assets/Portfolio/Web/Gaming Website Template.jpg" data-lightbox="mygallery">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work" data-item="graphics">
+                    <img src="assets/Portfolio/work (19).jpg">
+                    <div class="layer">
+                        <h3>Chillies Biriyani Combo</h3>
+                        <a href="assets/Portfolio/work (19).jpg" data-lightbox="mygallery">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work" data-item="graphics">
+                    <img src="assets/Portfolio/work (20).jpg">
+                    <div class="layer">
+                        <h3>Chillies Al-Faham</h3>
+                        <a href="assets/Portfolio/work (20).jpg" data-lightbox="mygallery">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work" data-item="graphics">
+                    <img src="assets/Portfolio/Chillies Meelad-01.jpg">
+                    <div class="layer">
+                        <h3>Chillies Meelad</h3>
+                        <a href="assets/Portfolio/Chillies Meelad-01.jpg" data-lightbox="mygallery">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work graphics" data-item="graphics">
+                    <img src="assets/Portfolio/work (3).jpg">
+                    <div class="layer">
+                        <h3>Environment Day</h3>
+                        <a href="assets/Portfolio/work (3).jpg" data-lightbox="mygallery">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work website" data-item="website">
+                    <img src="assets/Portfolio/Web/Immune Polyclinic Website Bootstrap.jpg">
+                    <div class="layer">
+                        <h3>Immune Polyclinic Website</h3>
+                        <p>Click to goto Website</p>
+                        <a href="assets/Portfolio/Web/Immune/index.html" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work website" data-item="website">
+                    <img src="assets/Portfolio/Web/Business Website Template.jpg">
+                    <div class="layer">
+                        <h3>Business Website Design</h3>
+                        <p>Click to goto Website</p>
+                        <a href="assets/Portfolio/Web/Business Website Template/index.html" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work" data-item="graphics">
+                    <img src="assets/Portfolio/work (6).jpg">
+                    <div class="layer">
+                        <h3>Chillies Eid Combo</h3>
+                        <a href="assets/Portfolio/work (6).jpg" data-lightbox="mygallery">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work" data-item="graphics">
+                    <img src="assets/Portfolio/work (7).jpg">
+                    <div class="layer">
+                        <h3>D Gallery Hiring</h3>
+                        <a href="assets/Portfolio/work (7).jpg" data-lightbox="mygallery">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="quote">Click below to see Full Works</p>
+            <a href="works.html" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact" data-aos="fade-up" data-aos-duration="500">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>minhajatholi222@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9496 402 173, +91 8129 672 173</p>
+                    <div class="social-icons">
+                        <p class="actions">Actions:</p>
+                        <a href="http://instagram.com/m12_designs/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/9496402173" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="mailto: minhajatholi222@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                        <a href="https://www.facebook.com/minhaj.atholi.9" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="tel:+919496402173"><i class="fa-solid fa-phone"></i></a>
+                        
+                    </div>
+                    <a href="/Assets/Img/M12_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="googlesheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Copyright <i class="fa-solid fa-heart"></i> m12_designs.com</p>
+        </div>
+    </div>
+    
+
+<!----- Pre-Lodader ----->
+
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function()
+        {
+            loader.style.display="none";
+        })
+    </script>
+
+<!----- Pre-Loader ---->
+
+
+<!---- Typed Text Animation ----->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",
+        {
+            strings: ["UI/UX Designer","Web Designer","Graphic Designer","Motion Designer"],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop:true
+        })
+    </script>
+
+<!---- End Typed Text Animation ----->
+
+
+<!----- Onscroll Navbar Style -->
+
+    <script>
+        function changebg()
+        {
+            var navbar = document.getElementById("navbar");
+            var scrollvalue = window.scrollY;
+            if(scrollvalue < 50)
+            {
+                navbar.classList.remove('bg-color');
+            }
+            else{
+                navbar.classList.add('bg-color');
+            }
+        }
+
+        window.addEventListener('scroll', changebg);
+    </script>
+
+<!----- End Onscroll Navbar Style -->
+
+
+
+<!---- Tab Links -->
+
+    <script>
+        var tabitems = document.getElementsByClassName("tab-item");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tabitems)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<!---- End Tab Links -->
+
+
+
+<!---- Email Google Sheet -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzcdrgFHPtkKE46NqZdbYhl5ZMetu_j7YHyguG4kdqR1cZmNGfYsCN5KSiFpYMZVz29/exec'
+        const form = document.forms['googlesheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => 
+            {
+                msg.innerHTML = "Message Sent Successfully!"
+                setTimeout(function()
+                {
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+<!---- End Email Google Sheet -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

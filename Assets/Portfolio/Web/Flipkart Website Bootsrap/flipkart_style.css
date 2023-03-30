@@ -1,0 +1,177 @@
+.navbar
+{
+    padding:0px;
+    margin:0px;
+}
+.navbar-nav .dropdown ul li
+{
+    width:250px;
+}
+.dropdown
+{
+    position:relative;
+   
+}
+.dropdown-menu
+{
+    display:none;
+    position:absolute;
+    border-radius:0px;
+}
+.dropdown-menu a
+{
+    display:block
+}
+.dropdown:hover .dropdown-menu
+{
+    display:block;
+}
+.item
+{
+    color:black;
+}
+.logo
+{
+    margin:0px;
+}
+.logotitle
+{
+    margin-top:-10px;
+    font-style: italic;
+    color:White;
+    font-size:12px;
+}
+.plus
+{
+    font-weight: 600;
+    color:rgb(255, 217, 0);
+}
+.search_bar .form-inline input
+{
+    width:500px;
+    margin-left:-50px;
+    border-radius:0px;
+    border:none;
+}
+.search_bar .form-inline .btn-primary
+{
+    background:white;
+    border:1px white solid;
+    border-radius:0px;
+    color:#2874f0;
+}
+.navbar-nav li a
+{
+    font-weight: 500;
+    margin-left:30px;
+    font-size:16px;
+}
+.navbar .nav-link
+{
+    color: white;
+}
+#section_smallmenu
+{
+    height:120px;
+    background:rgb(255, 255, 255);
+}
+#section_smallmenu .card
+{
+    width:70px;
+    border:none;
+    background: none;
+    padding-top:10px;
+    margin-left:63px
+    
+}
+#section_smallmenu .card:hover
+{
+    transform: scale(105%);
+    transition: .3s;
+}
+#section_smallmenu .card .card-body
+{
+    background:none;
+    font-size:12px;
+}
+#section_banner
+{
+    background: rgb(217, 217, 217);
+}
+.container-fluid
+{
+    padding:5px 5px;
+    background: rgb(217, 217, 217);
+}
+#section_offeritems .card
+{
+    border:none;
+    width:200px;
+    border-radius:none;
+}
+#section_offeritems .card-body
+{
+    padding:80px 0px 80px 0px;
+    border-radius:none;
+}
+#section_offeritems .card-body p
+{
+    font-size:40px;
+}
+#section_offeritems .card-footer
+{
+    border:none;
+    background:rgb(141, 0, 0);
+    border-radius:none;
+}
+#section_offeritems img:hover
+{
+    transform: scale(105%);
+    transition: .3s;
+}
+#section_offeritems .row
+{
+    padding:5px 0px;
+}
+#section_deals .row
+{
+    padding:5px 0px 5px 0px;
+}
+#section_footer
+{
+    height:350px;
+    background:#172337;
+}
+#section_footer .footer
+{
+    padding-top:50px;
+}
+#section_footer .col-sm-3 ul li a
+{
+    margin:0px;
+    padding:0px;
+    color:rgb(255, 255, 255);
+    font-size:16px;
+}
+#section_footer .col-sm-3 h6
+{
+    color:#666;
+}
+#section_footer .col-sm-6
+{
+    font-size:12px;
+    color:rgb(194, 194, 194);
+}
+#section_footer .col-sm-6 p
+{
+    margin-top:10px;
+}
+#section_footer .col-sm-6 .number
+{
+    font-weight: bold;
+    color:rgb(0, 123, 255);
+}
+#section_footer .col-sm-6 h6
+{
+    color:#666;
+}

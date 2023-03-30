@@ -1,0 +1,207 @@
+.top_bar
+{
+    background: hsl(0, 79.6%, 40.4%);
+    height:100px;
+    width:100%;
+}
+.top_bar .navbar .btn
+{
+    background:red;
+    border:none;
+}
+
+.top_bar li
+{
+    margin-right:5px;
+}
+.top_bar ul li a
+{
+    margin-top:-70px;
+    color:white;
+    background:darkred;
+}
+.sidetopbar .btn :hover
+{
+    background:darkred;
+}
+#section_navbar .navbar
+{
+    background: hsl(0, 79.6%, 40.4%);
+}
+#section_navbar ul li a
+{
+    color:white;
+}
+#section_navbar ul li
+{
+    margin-right:30px;
+}
+#section_navbar ul li:hover
+{
+    background:rgb(208, 0, 0);
+}
+.jumbotron
+{
+    padding:0px;
+    margin-bottom:0px;
+}
+.contents
+{
+    position:absolute;
+    margin-top:-437px;
+}
+#section_admissionopen
+{
+    background:rgb(1, 36, 34);
+    height:140px;
+}
+#section_admissionopen p
+{
+    font-size:20px;
+}
+#section_banner .btn
+{
+    background:red;
+}
+#section_explore .row
+{
+    border:none;
+}
+#section_explore .explore a
+{
+    color:darkblue;
+    text-decoration:none;
+}
+#section_studentslife
+{
+    background:#a51c30;
+    height:550px;
+}
+#section_studentslife .card
+{
+    border:none;
+}
+#section_studentslife .card .card-body
+{
+    padding:0px;
+}
+#section_studentslife .card .card-footer
+{
+    padding:10px;
+    background:white;
+}
+#section_quote
+{
+    padding-top:30px;
+    background:rgb(255, 255, 255);
+    height:430px;
+}
+#section_course
+{
+    background:rgb(35, 35, 35);
+    height:700px;
+    color:white;
+}
+#section_admissionprocess
+{
+background:black;
+height:650px;
+color:white;
+}
+#section_admissionprocess .card
+{
+    border:none;
+}
+#section_admissionprocess .card-header
+{
+    padding:0px;
+}
+#section_admissionprocess .card-body
+{
+    padding:0px;
+}
+#section_admissionprocess .row
+{
+    padding-top:50px;
+}
+#section_feedback
+{
+    height:150px;
+    background:rgb(255, 255, 255);
+}
+#section_studentspeak
+{
+    background:#666666;
+    height:600px;
+}
+#section_studentspeak .card
+{
+    border:none;
+    border-radius: 0px;;
+}
+#section_studentspeak .card-footer
+{
+    border:none;
+    background:white;
+}
+#section_studentspeak .card .card-footer a
+{
+    text-decoration: none;
+}
+#section_studentspeak .card .card-footer a :hover
+{
+    color:red;
+    
+}
+#section_footer
+{
+    height:400px;
+    background:#353535;
+}
+#section_footer .footer
+{
+    padding-top:30px;
+}
+#section_footer ul li a
+{
+    color:rgb(192, 192, 192);
+}
+#section_footer ul li a:hover
+{
+    color:red;
+}
+#section_footer ul li a
+{
+    padding-top:0px;
+    padding-bottom:2px;
+}
+#section_footer .quicklinks ul li a
+{
+    padding:0px;
+    color:white;
+}
+#section_footer .quicklinks ul li a:hover
+{
+    color:red;
+}
+#section_end
+{
+    background:rgb(24, 24, 24);
+    height:180px;
+}
+#section_end ul li a
+{
+    color:rgb(221, 221, 221);
+}
+#section_end ul li a:hover
+{
+    color:white;
+}
+#section_end .col-md-8
+{
+    padding:0px;
+}
+#section_end a
+{
+    color:white;
+}

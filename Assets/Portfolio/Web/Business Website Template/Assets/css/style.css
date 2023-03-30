@@ -1,0 +1,616 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Century Gothic";
+    /*border:1px solid red;*/
+}
+.container
+{
+    padding:0px 6%;
+    width:100%;
+}
+
+#homesection
+{
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background:linear-gradient(#630756,#c20b83)
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0px;
+}
+.navbar ul
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.navbar ul li
+{
+    list-style-type: none;
+    padding-right:20px;
+}
+
+.navbar ul li a
+{
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+    color:white;
+}
+.navbar ul li a::after
+{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom:-5px;
+    height:5px;
+    width:0%;
+    background:white;
+    border-radius:20px;
+    transition: all 0.2s;
+}
+.navbar ul li a:hover
+{
+    color:#ff00a6;
+    transition:all 0.2s;
+}
+.navbar ul li a:hover::after
+{
+    width:50%;
+}
+.brand p
+{
+    font-size: 36px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+}
+#homesection .banner_content
+{
+    width:100%;
+    margin-top:20%;
+    color:White;
+}
+#homesection .banner_content h3
+{
+    font-size:35px;
+}
+#homesection .banner_content h1
+{
+    margin-top:-20px;
+    font-size:65px;
+    text-decoration: underline;
+}
+#homesection .banner_content p
+{
+    font-size:18px;
+    width:80%;
+}
+#homesection .fa-solid
+{
+    display:none;
+}
+@media only screen and (max-width:700px)
+{
+   
+    .container
+    {
+        padding:0px 3%;
+        width:100%;
+    }
+    .navbar
+    {
+        position:relative;
+        left:0;
+        align-items: center;
+    }
+    .navbar ul
+    {
+        width:200px;
+        background:#47002e;
+        height:100vh;
+        display:block;
+        position:absolute;
+        top:0px;
+        left:-230px;
+        z-index: 2;
+        margin-left:-20px;
+        transition:all 0.3s ease;
+    }
+    #homesection .fa-solid
+    {
+        display:block;
+        padding-left:30px;
+        padding-top:30px;
+        font-size:24px;
+        color:white;
+        cursor: pointer;
+    }
+    #homesection .fa-bars
+    {
+        padding:5px;
+        font-size:24px;
+    }
+    .navbar ul li
+    {
+        display:block;
+        padding:20px 30px;
+    }
+    .navbar ul li a:hover   
+    {
+        color:white;
+        transition:all 0.2s;
+    }
+    #homesection .banner_content
+    {
+        width:100%;
+        margin-top:60%;
+    }
+    #homesection .banner_content h3
+    {
+        font-size:24px;
+    }
+    #homesection .banner_content h1
+    {
+        font-size:40px;
+        margin-top:-10px;
+    }
+}
+
+
+
+
+#aboutsection
+{
+    padding:40px 0px;
+    color:#c20b83;
+}
+#aboutsection .container
+{
+    padding-right:0px;
+}
+#aboutsection .row
+{
+    padding-top:30px;
+    display:flex;
+}
+#aboutsection .head
+{
+    
+    flex-basis: 60%;
+}
+.content h1
+{
+    font-size:50px;
+    font-weight: bolder;
+}
+.content p
+{
+    font-size:20px;
+    padding-top:10px;
+}
+#aboutsection .head .icons
+{
+    padding-top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+#aboutsection .head .icons .icn
+{
+    width:200px;
+    height: 200px;
+    background:#c20b83;
+    padding:20px;
+    border-radius: 30px;
+}
+#aboutsection .image
+{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: right;
+    padding-top:10px;
+}
+@media only screen and (max-width:700px)
+{
+    #aboutsection h1
+    {
+        font-size:26px;
+    }
+    #aboutsection p
+    {
+        width:100%;
+        font-size:18px;
+    }
+    #aboutsection .row
+    {
+        display: block;
+    }
+    #aboutsection .head
+    {
+
+        width: 100%;
+        padding-right:3%;
+    }
+    #aboutsection .head .icons .icn
+    {
+        width:100px;
+        height:100px;
+        border-radius:10px;
+    }
+    #aboutsection .image img
+    {
+        width:80%;
+        padding-top:50px;
+    }
+}
+
+
+
+
+
+#servicesection
+{
+    padding:40px 0px;
+    color:#c20b83;
+}
+#servicesection .content p
+{
+    width:50%;
+    padding-top:10px;
+}
+#servicesection .row
+{
+    display: flex;
+}
+#servicesection .row .left
+{
+    padding-top:30px;
+    flex-basis:30%;
+}
+#servicesection .row .right
+{
+    flex-basis: 70%;
+}
+#servicesection .right .row2
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right:6%;
+    flex-basis: 100%;
+}
+#servicesection .right .row2 .content
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width:100%;
+}
+#servicesection .right .row2 .content .breif
+{
+    padding:20px 20px;
+}
+#servicesection .right .row2 .content h1
+{
+    font-size:40px;
+}
+#servicesection .right .row2 .content p
+{
+    width:100%;
+}
+#servicesection .right .row2 .images
+{
+    width:300px;
+    height:300px;
+    margin-top:40px;
+    border-radius:50%;
+    overflow: hidden;
+}
+#servicesection .right .right_content
+{
+    text-align: right;
+    padding-right:6%;
+    padding-top:30px;
+}
+#servicesection .right .right_content h1
+{
+    font-size:50px;
+}
+#servicesection .right .right_content p
+{
+    font-size:20px;
+    padding-top:10px;
+}
+#servicesection .bottom-content
+{
+    display: flex;
+    padding-top:30px;
+}
+#servicesection .bottom-content .left
+{
+    padding-left:6%;
+    flex-basis: 70%;
+}
+#servicesection .bottom-content .left h1
+{
+    font-size:50px;
+}
+#servicesection .bottom-content .left p
+{
+    font-size:20px;
+}
+#servicesection .bottom-content .right
+{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: right;
+}
+@media only screen and (max-width:700px)
+{
+    #servicesection .content p
+    {
+        width:100%;
+    }
+    #servicesection .row
+    {
+        display: block;
+    }
+    #servicesection .row .left
+    {
+        width:100%;
+    }
+    #servicesection .row .right
+    {
+        width:100%;
+    }
+    #servicesection .right .row2
+    {
+        display:block;
+        padding-right:0px;
+    }
+    #servicesection .right .row2 .content
+    {
+        width:100%;
+        padding-right:0px;
+    }
+    #servicesection h1
+    {
+        font-size:26px;
+    }
+    #servicesection p
+    {
+        font-size:18px;
+    }
+    #servicesection .right .right_content
+    {
+        padding-right:3%;
+        padding-left:3%;
+    }
+    #servicesection .right .right_content h1
+    {
+        font-size:26px;
+    }
+    #servicesection .right .right_content p
+    {
+        font-size:18px;
+    }
+    #servicesection .bottom-content
+    {
+        display:block;
+    }
+    #servicesection .bottom-content .left
+    {
+        padding-left:3%;
+        padding-right:3%;
+    }
+    #servicesection .bottom-content .left h1
+    {
+        font-size:26px;
+    }
+    #servicesection .bottom-content .left p
+    {
+        font-size:18px;
+    }
+    #servicesection .bottom-content .right
+    {
+        width:100%;
+        margin-top:40px;
+    }
+    
+}
+
+
+
+
+#contactsection
+{
+    padding:40px 0px;
+    color:#c20b83;
+    width: 100%;
+}
+#contactsection .title h1
+{
+    font-size: 50px;
+}
+#contactsection .title p
+{
+    margin-top:-20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline dashed;
+}
+#contactsection .form
+{
+    display:flex;
+    flex-direction: column;
+    padding:20px 30%; 
+    margin-top:20px;
+}
+#contactsection .form input,textarea
+{
+    padding:10px;
+    margin-bottom:30px;
+    border:none;
+    background:#ffceee;
+    border-radius: 10px;
+}
+::placeholder
+{
+    color:#830055;
+}
+#contactsection .btn
+{
+    padding:5px;
+    font-weight: bold;
+    font-size:20px;
+    border: none;
+    background:#c20b83;
+    color:white;
+    border-radius: 10px;
+}
+@media only screen and (max-width:700px)
+{
+    #contactsection .title h1
+    {
+        font-size: 28px;
+    }
+    #contactsection .title p
+    {
+        font-size: 28px;
+        margin:0px;
+    }
+    #contactsection .form
+    {
+        padding:20px 5%; 
+    }
+}
+
+
+
+
+
+#footersection
+{
+    padding:30px 0px;
+    color:#c20b83;
+    width: 100%;
+}
+#footersection .row
+{
+    display: flex;
+    justify-content: space-between;
+}
+#footersection .row .left
+{
+    display: flex;
+    flex-direction: column;
+}
+#footersection .row .left .item
+{
+    display: flex;
+    padding-bottom:10px;
+}
+#footersection .row .left .icon
+{
+    margin-right:10px;
+}
+#footersection .row .left .icon i
+{
+    font-size:18px;
+    transition: all 0.3s;
+}
+#footersection .row .left .icon .fa-phone
+{
+    font-size:14px;
+}
+#footersection .row .left
+{
+    line-height: 18px;
+    font-size:16px;
+}
+#footersection .row .right
+{
+    display: flex;
+    align-items: right;
+}
+#footersection .row .right .social
+{
+    font-size:20px;
+    font-weight: bold;
+}
+#footersection .row .right .icons
+{
+    display: flex;
+    justify-content: right;
+}
+#footersection .row .right .icons i
+{
+    padding-left:5px;
+    transition:all 0.3s;
+}
+#footersection i:hover
+{
+    color:black;
+}
+#footersection .copyright
+{
+    width:20%;
+    align-items: center;
+    margin:auto;
+    padding-top:30px;
+    text-align: center;
+}
+@media only screen and (max-width:700px)
+{
+    #footersection .row
+    {
+        display: block;
+    }
+    #footersection .row .left
+    {
+        flex-direction: row;
+        font-size:14px;
+        justify-content: space-between;
+        padding-bottom:10px;
+    }
+    #footersection .row .left .icon i
+    {
+        font-size:14px;
+    }
+    #footersection .left .item .icon  .phone
+    {
+        text-align: right;
+        justify-content: right;
+    }
+    #footersection .row .center
+    {
+        padding-bottom:20px;
+    }
+    #footersection .row .right .social
+    {
+        font-size:24px
+    }
+    #footersection .row .right .icons
+    {
+        justify-content: left;
+    }
+    #footersection .row .right .icons i
+    {
+        padding-left:0px;
+        padding-right:5px;
+        font-size:20px;
+    }
+    #footersection .copyright
+    {
+        width:60%;
+    }
+}
